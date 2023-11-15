@@ -1,7 +1,8 @@
 # Mehdi Paryavi Blog Page
 
+<a href='https://mehdiparyavi.com/'>
 <img width="1400" alt="Screenshot 2023-11-14 at 10 46 11 PM" src="https://github.com/aparyavi/mehdiparyavi/assets/62215723/e85608e6-b15a-4075-a0bc-c0e2f4f1e4e3">
-
+</a>>
 
 ## Available Scripts
 

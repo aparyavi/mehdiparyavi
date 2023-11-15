@@ -1,0 +1,134 @@
+.right_side_top_div {
+    background-color: #262626;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 50px 0px;
+}
+
+.right_side_inner_top_div {
+    padding: 0px 50px;
+}
+
+.right_side_name_img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.right_side_header_text {
+    font-style: italic;
+    color: #b6b6b6;
+    margin: 5px 0px;
+    font-size: 17px;
+}
+
+.right_side_divide {
+    margin: 30px 0px;
+    border-bottom: 1px solid #464646;
+}
+
+.right_side_welcome {
+    font-size: 20px;
+    color: #d3ab6b;
+}
+
+.right_side_decription_text {
+    color: #8d8d8d;
+}
+
+.right_side_tags {
+    font-size: 18px;
+    color: #d3ab6b;
+}
+
+.right_side_tags_div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.right_side_tags_div p {
+    border: 1px solid #464646;
+    border-radius: 3px;
+    color: #8d8d8d;
+    padding: 8px 12px;
+    margin: 0px;
+    font-size: 13px;
+}
+
+.right_side_social_media_top_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right_side_social_media_a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.right_side_social_media_a:hover {
+    color: #d3ab6b;
+}
+
+.right_side_social_media_a p {
+    margin: 0px;
+}
+
+.right_side_social_media_linkedin {
+    margin-top: 10px;
+}
+
+.right_side_quotes {
+    border: 1px solid #464646;
+    border-radius: 3px;
+    color: #8d8d8d;
+    padding: 8px 12px;
+    margin: 0px;
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.right_side_quotes:hover {
+    color: #d3ab6ba2;
+}
+
+@media screen and (max-width: 1280px) {
+    .right_side_top_div {
+        margin-top: 50px;
+    }
+
+    .right_side_inner_top_half_div {
+        display: none;
+    }
+
+    .right_side_inner_bottom_half_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .right_side_inner_top_div {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .right_side_inner_top_div {
+        grid-template-columns: 350px 350px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .right_side_inner_top_div {
+        grid-template-columns: 350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .right_side_inner_top_div {
+        grid-template-columns: 300px;
+    }
+}

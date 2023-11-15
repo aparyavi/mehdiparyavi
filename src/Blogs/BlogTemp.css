@@ -1,0 +1,33 @@
+.blog_temp_top_all_div {
+    margin-bottom: 150px;
+}
+
+.blog_temp_div p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #696969;
+}
+
+.blog_temp_div h4 {
+    font-weight: 300;
+    border-left: 4px solid #d8b57a;
+    font-size: 27px;
+    line-height: 40px;
+    color: #bf9d62;
+    font-family: New Century Schoolbook,
+        TeX Gyre Schola,
+        serif;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.blog_temp_div h5 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0px;
+
+    font-family: New Century Schoolbook,
+        TeX Gyre Schola,
+        serif;
+}

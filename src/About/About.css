@@ -1,0 +1,11 @@
+.about_top_div h1 {
+    font-weight: 300;
+    font-size: 34px;
+    color: #4a4a4a;
+}
+
+.about_top_div p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #696969;
+}
